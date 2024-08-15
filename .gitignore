@@ -1,0 +1,41 @@
+# ROS Workspace .gitignore
+
+# Ignore build and devel directories
+build/
+devel/
+
+# Ignore install directory (if you're using catkin_make_isolated or catkin build)
+install/
+
+# Ignore log files
+*.log
+
+# Ignore generated msg and srv files
+*.py[cod]
+*.so
+
+# Ignore .catkin_workspace file
+.catkin_workspace
+
+# Ignore certain ROS specific files
+.rosinstall
+.rosinstall.bak
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore CLion settings
+.idea/
+
+# Ignore Python compiled files
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore bag files (they can be large)
+*.bag
